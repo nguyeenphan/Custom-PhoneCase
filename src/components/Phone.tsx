@@ -1,24 +1,45 @@
-import { cn } from "@/lib/utils";
-import { HTMLAttributes } from "react";
+import { cn } from '@/lib/utils'
+import { HTMLAttributes } from 'react'
+import Image from "next/image";
 
 interface PhoneProps extends HTMLAttributes<HTMLDivElement> {
-    imgSrc: string
-    dark?: boolean
-    className?: string;
+  imgSrc: string
+  dark?: boolean
+  priority?: boolean
 }
 
-const Phone = ({imgSrc, className, dark = false, ...props}: PhoneProps) => {
-    return (
-        <div className={cn("relative pointer-events-none z-50 overflow-hidden",
-            className
-        )}
-        {...props}>
-            <img src={dark ? "/phone-template-2.png": "/phone-template-2.png"} alt="phone image" className="pointer-events-none witdth-full z-50 select-none" />
-            <div className="absolute -z-10 inset-0">
-                <img src={imgSrc} className="object-cover object-center mx-1 w-[97%] h-full rounded-[2.4rem]" alt="overlaying phone image" />
-            </div>
-        </div>
-    )
+const Phone = ({ imgSrc, className, dark = false, priority = false, ...props }: PhoneProps) => {
+  return (
+    <div
+      className={cn(
+        'relative pointer-events-none z-50 overflow-hidden',
+        className
+      )}
+      {...props}>
+      <Image
+        src={
+          dark
+            ? '/phone-template-dark-edges.png'
+            : '/phone-template-white-edges.png'
+        }
+        className='pointer-events-none z-50 select-none'
+        alt='phone image'
+        width={400}
+        height={1000}
+      />
+
+      <div className='absolute -z-10 inset-0'>
+        <Image
+          className='object-cover min-w-full min-h-full'
+          src={imgSrc}
+          alt='overlaying phone image'
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          priority={priority}
+        />
+      </div>
+    </div>
+  )
 }
 
-export default Phone;
+export default Phone
