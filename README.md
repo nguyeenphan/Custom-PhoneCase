@@ -1,37 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Custom Phone Case Website
 
-## Getting Started
+Welcome to the Custom Phone Case website, built with Next.js, where you can design your own unique phone case in just a few easy steps.
 
-First, run the development server:
+## Screenshots
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Hero Page
+![Hero Page](https://github.com/user-attachments/assets/c42c203d-08b1-4d9b-a59b-cbcdd3509a15)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Customization Steps
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### Step 1: Add Image
+![Step 1: Add Image](https://github.com/user-attachments/assets/5a841fab-5268-4fc0-a249-fe8aa2c264c3)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Step 2: Configuration
+![Step 2: Configuration](https://github.com/user-attachments/assets/135c6378-4daa-4a22-8e8d-a73b86fbeb4f)
 
-## Learn More
+#### Step 3: Review
+![Step 3: Review](https://github.com/user-attachments/assets/7acba5f3-0692-46d5-81ae-b4ed59563262)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# Custom-PhoneCase
+## Video Demo
+Watch the demo video [here]([https://drive.google.com/your-video-link](https://drive.google.com/file/d/11aNweELLzyXXSvBQg8bLYzmtw7yzQ1KU/view?usp=sharing)).
