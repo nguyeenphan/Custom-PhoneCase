@@ -2,6 +2,9 @@
 
 Welcome to the Custom Phone Case website, built with Next.js, where you can design your own unique phone case in just a few easy steps.
 
+## Video Demo
+Watch the demo video [here](https://drive.google.com/file/d/11aNweELLzyXXSvBQg8bLYzmtw7yzQ1KU/view?usp=sharing).
+
 ## Screenshots
 
 ### Hero Page
@@ -18,5 +21,3 @@ Welcome to the Custom Phone Case website, built with Next.js, where you can desi
 #### Step 3: Review
 ![Step 3: Review](https://github.com/user-attachments/assets/7acba5f3-0692-46d5-81ae-b4ed59563262)
 
-## Video Demo
-Watch the demo video [here]([https://drive.google.com/your-video-link](https://drive.google.com/file/d/11aNweELLzyXXSvBQg8bLYzmtw7yzQ1KU/view?usp=sharing)).
