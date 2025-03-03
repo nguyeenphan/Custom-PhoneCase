@@ -1,6 +1,6 @@
 # Custom Phone Case Website
 
-Welcome to the Custom Phone Case website, built with Next.js, where you can design your own unique phone case in just a few easy steps.
+Welcome to My responsive Custom Phone Case website, built with Next.js, where you can design your own unique phone case in just a few easy steps.
 
 ## Video Demo
 Watch the demo video [here](https://drive.google.com/file/d/11aNweELLzyXXSvBQg8bLYzmtw7yzQ1KU/view?usp=sharing).
